@@ -4,11 +4,11 @@
   "description": "",
   "main": "bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\"" 
+    "test": "echo \"Error: no test specified\"",
     "bundle": "browserify *.js > bundle.js"
   },
   "pre-commit": [
-    "npm run bundle && echo thisandthat"
+    "bundle"
   ],
   "repository": {
     "type": "git",
