@@ -1,3 +1,3 @@
 module.exports = function () {
-  console.log('this is really from inside an easter egg');
+  return 'this is really from inside an easter egg';
 }
