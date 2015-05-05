@@ -3,6 +3,7 @@ console.log('this is really from inside an easter egg');
 
 },{}],2:[function(require,module,exports){
 var easterEgg = require('./easter_egg.js')();
+console.log('easter egg %s', easterEgg);
 
 
 },{"./easter_egg.js":1}]},{},[2]);
