@@ -1,0 +1,26 @@
+{
+  "name": "joshwyatt.github.io",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "browserify *.js > bundle.js"
+  },
+  "pre-commit": [
+    "bundle"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshWyatt/joshwyatt.github.io.git"
+  },
+  "author": "joshwyatt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshWyatt/joshwyatt.github.io/issues"
+  },
+  "homepage": "https://github.com/joshWyatt/joshwyatt.github.io",
+  "devDependencies": {
+    "pre-commit": "^1.0.7"
+  }
+}
